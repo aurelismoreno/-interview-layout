@@ -6,69 +6,149 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./normalize.css" />
 		<link rel="stylesheet" href="./styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+			integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap"
+			rel="stylesheet"
+		/>
+
 		<title>Library</title>
 	</head>
 	<body>
-		<div class="container">
-      <header>
-        <!-- Social bar -->
-        <div class="social">
-          <ul>
-            <li><a href="#"><img src="" alt="twitter"></a></li>
-            <li><a href="#"><img src="" alt="facebook"></a></li>
-            <li><a href="#"><img src="" alt="youtube"></a></li>
-            <li><a href="#"><img src="" alt="instagram"></a></li>
-            <li><a href="#"><img src="" alt="search"></a></li>
-            
-          </ul>
-        </div>
+		<wrapper class="wrapper">
+			<div class="social">
+				<div class="social__icons">
+					<a href="#" class="social__items">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="#" class="social__items">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="#" class="social__items">
+						<i class="fab fa-youtube"></i>
+					</a>
+					<a href="#" class="social__items">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
 
-			<!-- Header -->
-			<nav class="navbar">
-				<img>Logo</img>
-				<ul>
-					<li><a href="#home">Home</a></li>
-					<li><a href="#ministries">Ministries</a></li>
-					<li><a href="#blog">Blog</a></li>
-					<li><a href="#resources">Resources</a></li>
-					<li><a href="#services">Services</a></li>
-          <li><a href="#events">Events</a></li>
-					<li><a href="#contact us">Contact Us</a></li>
-					<li><a href="#locator">Locator</a></li>
-					<li><a href="#give">Give</a></li>
-				</ul>
+				<div class="search">
+					<a href="#" class="search__item">
+						<i class="fas fa-search fa-rotate-90"></i>
+					</a>
+				</div>
+			</div>
+
+			<nav class="nav">
+				<div class="nav__logo">
+					<img src="./assets/logo.png" class="nav__img" />
+				</div>
+				<div class="nav__menu">
+					<a href="#" class="nav__links">Home</a>
+					<a href="#" class="nav__links active">-Ministries</a>
+					<a href="#" class="nav__links">Blog</a>
+					<a href="#" class="nav__links">Resources</a>
+					<a href="#" class="nav__links">Services</a>
+					<a href="#" class="nav__links">Events</a>
+					<a href="#" class="nav__links">Contact Us</a>
+					<a href="#" class="nav__links">Locator</a>
+					<a href="#" class="nav__links">Give</a>
+				</div>
 			</nav>
-      </header>
-			
-      <main>
-        <!-- Banner -->
-        <section class="banner">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#ministries">Ministries</a></li>
-            <li><a href="#pathfinders">Pathfinders</a></li>
-          </ul>
-          <h1>Honors Library Title</h1>
-        </section>
+			<section class="banner">
+				<div class="banner__header">
+					<a href="#" class="banner__link">Home / </a>
+					<a href="#" class="banner__link">Ministries /</a>
+					<a href="#" class="banner__link">Pathfinders</a>
+				</div>
 
-        <!-- subtitle Primary -->
-        <section class="subtitlePrimary">
-          <h2>
-            Sub Title
-          </h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, culpa? Sit perspiciatis quas minus nisi quae consequuntur vitae omnis beatae dolore in natus ipsam amet, qui doloribus labore eligendi provident.</p>
-        </section>
+				<div class="banner___title">
+					<h1 class="banner__titleInterno">Honors Library Title</h1>
+				</div>
+			</section>
+			<section class="primary">
+				<h2 class="primary__title">Sub Title</h2>
+				<h3 class="primary__subtitle">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				</h3>
+				<p class="primary__paragraph">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint illum,
+					explicabo maiores illo minus blanditiis debitis quis sit impedit esse
+					dolor quisquam ipsum assumenda voluptas laboriosam consectetur quas
+					eaque ad.Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+					Sint illum,explicabo maiores illo minus blanditiis debitis quis sit
+					impedit esse dolor quisquam ipsum assumenda voluptas laboriosam
+					consectetur quas eaque ad ipsum assumenda voluptas laboriosam
+					assumenda voluptas laboriosam.
+				</p>
+			</section>
+			<section class="secundary">
+				<h2 class="primary__title">Sub Title</h2>
+				<div class="cards">
+					<!-- Card 1 -->
+					<div class="card">
+						<div class="card__wrapper">
+							<img class="card__img" src="./assets/card-1.png" alt="" />
 
-        <!-- Subtitle Secundary -->
-        <section class="subtitleSecundary">
-          <h2>Sub Title</h2>
-          <div class="cards">
-            <img src="" alt="" class="card-img"/>Img
-            <div class="card-body">card-body</div>
-          </div>
-        </section>
-      </main>
-      <!-- End -->
-		</div>
+							<div class="card__wrapper">
+								<h3 class="card__title">
+									<span>HONOR NAME</span>
+									<i class="fas fa-angle-up"></i>
+								</h3>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 2 -->
+					<div class="card">
+						<div class="card__wrapper">
+							<img class="card__img" src="./assets/card-2.png" alt="" />
+							<div class="card__Body">
+								<div class="card__wrapper">
+									<h3 class="card__title">
+										<span>HONOR NAME</span>
+										<i class="fas fa-angle-up"></i>
+									</h3>
+								</div>
+
+								<p class="card__container">
+									By not having the imagination to imagine what the content
+									"might" be, a design consideration is lost. Meaning becomes
+									obfuscated because "it's just text", understandability gets
+									compromised because nobody realized that this text stuff was
+									actually meant to be read.
+								</p>
+								<div class="card__subcotainer">
+									<h3 class="card__subtitle">RESOURCE :</h3>
+									<i class="fas fa-file-excel"></i>
+									<i class="fas fa-file-word"></i>
+									<i class="fab fa-youtube-square"></i>
+									<i class="fas fa-file-video"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Card 3 -->
+					<div class="card">
+						<div class="card__wrapper">
+							<img class="card__img" src="./assets/card-3.png" alt="" />
+
+							<div class="card__wrapper">
+								<h3 class="card__title">
+									<span>HONOR NAME</span>
+									<i class="fas fa-angle-down"></i>
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</wrapper>
 	</body>
 </html>
