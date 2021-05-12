@@ -83,7 +83,6 @@ body {
 	text-align: center;
 	display: flex;
 	justify-content: space-between;
-	/* padding-right: 80px; */
 }
 .nav__links {
 	text-decoration: none;
@@ -102,8 +101,7 @@ body {
 	color: var(--white);
 	text-decoration: black;
 }
-.banner__header {
-}
+
 .banner__link {
 	color: var(--white);
 	text-decoration: none;
@@ -136,8 +134,7 @@ body {
 .primary__title {
 	font-weight: bold;
 }
-.primary__subtitle {
-}
+
 .primary__paragraph {
 	color: var(--gray);
 	text-align: justify;
@@ -194,8 +191,7 @@ body {
 .card__body__inner {
 	padding: 20px;
 }
-.card__subcotainer {
-}
+
 .card__subtitle {
 	color: var(--green);
 }
