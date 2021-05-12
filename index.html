@@ -23,29 +23,33 @@
 	<body>
 		<wrapper class="wrapper">
 			<div class="social">
-				<div class="social__icons">
-					<a href="#" class="social__items">
-						<i class="fab fa-twitter"></i>
-					</a>
-					<a href="#" class="social__items">
-						<i class="fab fa-facebook-f"></i>
-					</a>
-					<a href="#" class="social__items">
-						<i class="fab fa-youtube"></i>
-					</a>
-					<a href="#" class="social__items">
-						<i class="fab fa-instagram"></i>
-					</a>
-				</div>
+				<div class="page__container">
+					<div class="social__wrapper">
+						<div class="social__icons">
+							<a href="#" class="social__items">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a href="#" class="social__items">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="#" class="social__items">
+								<i class="fab fa-youtube"></i>
+							</a>
+							<a href="#" class="social__items">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</div>
 
-				<div class="search">
-					<a href="#" class="search__item">
-						<i class="fas fa-search fa-rotate-90"></i>
-					</a>
+						<div class="search">
+							<a href="#" class="search__item">
+								<i class="fas fa-search fa-rotate-90"></i>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 
-			<nav class="nav">
+			<nav class="nav"  id="myTopnav">
 				<div class="nav__logo">
 					<img src="./assets/logo.png" class="nav__img" />
 				</div>
@@ -59,96 +63,125 @@
 					<a href="#" class="nav__links">Contact Us</a>
 					<a href="#" class="nav__links">Locator</a>
 					<a href="#" class="nav__links">Give</a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
 				</div>
 			</nav>
 			<section class="banner">
-				<div class="banner__header">
-					<a href="#" class="banner__link">Home / </a>
-					<a href="#" class="banner__link">Ministries /</a>
-					<a href="#" class="banner__link">Pathfinders</a>
-				</div>
-
-				<div class="banner___title">
-					<h1 class="banner__titleInterno">Honors Library Title</h1>
-					<div class="underlined"></div>
-				</div>
-			</section>
-			<section class="primary">
-				<h2 class="primary__title">Sub Title</h2>
-				<div class="underlined__primary"></div>
-				<h3 class="primary__subtitle">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				</h3>
-				<p class="primary__paragraph">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint illum,
-					explicabo maiores illo minus blanditiis debitis quis sit impedit esse
-					dolor quisquam ipsum assumenda voluptas laboriosam consectetur quas
-					eaque ad.Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-					Sint illum,explicabo maiores illo minus blanditiis debitis quis sit
-					impedit esse dolor quisquam ipsum assumenda voluptas laboriosam
-					consectetur quas eaque ad ipsum assumenda voluptas laboriosam
-					assumenda voluptas laboriosam.
-				</p>
-			</section>
-			<section class="secundary">
-				<h2 class="primary__title">Sub Title</h2>
-				<div class="underlined__primary"></div>
-				<div class="cards">
-					<!-- Card 1 -->
-					<div class="card">
-						<div class="card__wrapper">
-							<img class="card__img" src="./assets/card-1.png" alt="" />
-
-							<div class="card__wrapper">
-								<h3 class="card__title">
-									<span>HONOR NAME</span>
-									<i class="fas fa-angle-up"></i>
-								</h3>
-							</div>
+				<div class="page__container">
+					<div>
+						<div class="banner__header">
+							<a href="#" class="banner__link">Home / </a>
+							<a href="#" class="banner__link">Ministries /</a>
+							<a href="#" class="banner__link">Pathfinders</a>
 						</div>
-					</div>
 
-					<!-- Card 2 -->
-					<div class="card">
-						<div class="card__wrapper">
-							<img class="card__img" src="./assets/card-2.png" alt="" />
-							<div class="card__Body">
+						<div class="banner___title">
+							<h1 class="banner__titleInterno">Honors Library Title</h1>
+						</div>
+						<div class="underlined"></div>
+					</div>
+				</div>
+			</section>
+			<section class="page__container">
+				<div class="primary">
+					<h2 class="primary__title">Sub Title</h2>
+					<div class="underlined__primary"></div>
+					<h3 class="primary__subtitle">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</h3>
+					<p class="primary__paragraph">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
+						illum, explicabo maiores illo minus blanditiis debitis quis sit
+						impedit esse dolor quisquam ipsum assumenda voluptas laboriosam
+						consectetur quas eaque ad.Lorem ipsum dolor, sit amet consectetur
+						adipisicing elit. Sint illum,explicabo maiores illo minus blanditiis
+						debitis quis sit impedit esse dolor quisquam ipsum assumenda
+						voluptas laboriosam consectetur quas eaque ad ipsum assumenda
+						voluptas laboriosam assumenda voluptas laboriosam.
+					</p>
+				</div>
+			</section>
+			<section class="page__container">
+				<div class="secundary">
+					<h2 class="primary__title">Sub Title</h2>
+					<div class="underlined__primary"></div>
+					<div class="cards">
+						<div class="page__col">
+							<!-- Card 1 -->
+							<div class="card">
 								<div class="card__wrapper">
-									<h3 class="card__title">
-										<span>HONOR NAME</span>
-										<i class="fas fa-angle-up"></i>
-									</h3>
-								</div>
+									<img class="card__img" src="./assets/card-1.png" alt="" />
 
-								<p class="card__container">
-									By not having the imagination to imagine what the content
-									"might" be, a design consideration is lost.
-								</p>
-								<div class="card__subcotainer">
-									<h3 class="card__subtitle">RESOURCE :</h3>
-									<i class="fas fa-file-excel"></i>
-									<i class="fas fa-file-word"></i>
-									<i class="fab fa-youtube-square"></i>
-									<i class="fas fa-file-video"></i>
+									<div class="card__wrapper">
+										<h3 class="card__title">
+											<span>HONOR NAME</span>
+											<i class="fas fa-angle-up"></i>
+										</h3>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<!-- Card 3 -->
-					<div class="card">
-						<div class="card__wrapper">
-							<img class="card__img" src="./assets/card-3.png" alt="" />
 
-							<div class="card__wrapper">
-								<h3 class="card__title">
-									<span>HONOR NAME</span>
-									<i class="fas fa-angle-down"></i>
-								</h3>
+						<div class="page__col">
+							<!-- Card 2 -->
+							<div class="card">
+								<div class="card__wrapper">
+									<img class="card__img" src="./assets/card-2.png" alt="" />
+									<div class="card__Body">
+										<div class="card__wrapper">
+											<h3 class="card__title">
+												<span>HONOR NAME</span>
+												<i class="fas fa-angle-up"></i>
+											</h3>
+										</div>
+
+										<div class="card__body__inner">
+											<p class="card__container">
+												By not having the imagination to imagine what the content
+												"might" be, a design consideration is lost.
+											</p>
+											<div class="card__subcotainer">
+												<h3 class="card__subtitle">RESOURCE :</h3>
+												<i class="fas fa-file-excel"></i>
+												<i class="fas fa-file-word"></i>
+												<i class="fab fa-youtube-square"></i>
+												<i class="fas fa-file-video"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="page__col">
+							<!-- Card 3 -->
+							<div class="card">
+								<div class="card__wrapper">
+									<img class="card__img" src="./assets/card-3.png" alt="" />
+
+									<div class="card__wrapper">
+										<h3 class="card__title">
+											<span>HONOR NAME</span>
+											<i class="fas fa-angle-down"></i>
+										</h3>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 		</wrapper>
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "nav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "nav";
+			  }
+			}
+			</script>
 	</body>
 </html>
